@@ -17,10 +17,10 @@ import javax.xml.soap.SAAJMetaFactory;
 
 public class EzeeApiClient {
 
-	private static final String EZEE_CODE = "14630160";
-	private static final String EZEE_USERNAME = "4295448305";
-	private static final String EZEE_PASSWORD = "27CBC22ACC";
-	private static final String EZEE_URL = "http://mmpuchong.mobile-money.com:1668/EMTerminalAPI/API.svc?wsdl";
+	private static final String EZEE_CODE = "";
+	private static final String EZEE_USERNAME = "";
+	private static final String EZEE_PASSWORD = "";
+	private static final String EZEE_URL = "";
 
 	private SOAPMessage createRequest(String method, Map<String, String> params) throws SOAPException {
 		try {
